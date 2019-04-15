@@ -24,4 +24,7 @@ public class Singleton1 {
     public int   getCount2(){
         return  2;
     }
+    public void ssh(){
+
+    }
 }
