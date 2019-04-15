@@ -21,4 +21,7 @@ public class Singleton1 {
     public int   getCount(){
         return  1;
     }
+    public int   getCount2(){
+        return  2;
+    }
 }
