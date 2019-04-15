@@ -30,4 +30,7 @@ public class Singleton1 {
     public void https(){
 
     }
+    public void ssh2(){
+
+    }
 }
