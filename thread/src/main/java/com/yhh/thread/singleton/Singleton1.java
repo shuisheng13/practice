@@ -3,6 +3,7 @@ package com.yhh.thread.singleton;
 /***
  * 饿汉式
  * 对象一开始就创建 单例
+ * master v0.6
  */
 public class Singleton1 {
 

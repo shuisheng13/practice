@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/thread/singleton/Singleton1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="125">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding>
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
@@ -284,10 +284,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16540000" />
+    <option name="totallyTimeSpent" value="16553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1292" height="780" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8055556" visible="true" weight="0.2840909" />
       <window_info id="Structure" order="1" sideWeight="0.19444445" side_tool="true" visible="true" weight="0.2840909" />
@@ -470,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/thread/singleton/Singleton1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="125">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
             <element signature="e#231#232#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
