@@ -42,8 +42,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/thread/singleton/Singleton1.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="125">
               <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+=======
+            <state relative-caret-position="100">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+>>>>>>> 2019041501
               <folding>
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
@@ -147,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1" />
     <option name="width" value="1292" />
     <option name="height" value="780" />
@@ -279,12 +284,16 @@
       <workItem from="1554040329076" duration="904000" />
       <workItem from="1554126742981" duration="603000" />
       <workItem from="1554186538390" duration="306000" />
-      <workItem from="1555314190737" duration="1281000" />
+      <workItem from="1555314190737" duration="1887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="16553000" />
+=======
+    <option name="totallyTimeSpent" value="17146000" />
+>>>>>>> 2019041501
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1292" height="780" extended-state="0" />
@@ -471,8 +480,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/thread/singleton/Singleton1.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="125">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+=======
+        <state relative-caret-position="100">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+>>>>>>> 2019041501
           <folding>
             <element signature="e#231#232#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
