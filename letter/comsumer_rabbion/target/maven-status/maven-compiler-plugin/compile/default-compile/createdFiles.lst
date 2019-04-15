@@ -1,0 +1,4 @@
+com\yhh\comsumer\ComsumerRabbionApplication.class
+com\yhh\comsumer\controller\ProductController.class
+com\yhh\rule\RibbonConfig.class
+com\yhh\comsumer\config\RestConfig.class

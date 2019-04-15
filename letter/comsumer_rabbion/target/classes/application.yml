@@ -1,0 +1,9 @@
+server:
+  port: 81
+ribbon:
+  eureka:
+  enabled: false
+
+article:
+  ribbon:
+    listOfServers: http://localhost:8080,http://localhost:8081,http://localhost:8082

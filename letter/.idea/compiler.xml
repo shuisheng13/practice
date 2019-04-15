@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="article" />
+        <module name="article2" />
+        <module name="article3" />
+        <module name="article_hystrix" />
+        <module name="comsumer" />
+        <module name="comsumer-hystrix-dashboard" />
+        <module name="comsumer_feign" />
+        <module name="comsumer_hystrix" />
+        <module name="comsumer_rabbion" />
+        <module name="eureka" />
+        <module name="eureka2" />
+        <module name="security" />
+        <module name="service" />
+        <module name="serviceapi" />
+        <module name="turbine" />
+        <module name="user" />
+        <module name="zuul-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="article (1)" target="1.8" />
+      <module name="comsumer_hystrix-dashboard" target="1.8" />
+      <module name="eureka (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="article" options="" />
+      <module name="comsumer" options="" />
+      <module name="comsumer-hystrix-dashboard" options="" />
+      <module name="eureka" options="" />
+      <module name="turbine" options="" />
+      <module name="zuul-gateway" options="" />
+    </option>
+  </component>
+</project>
