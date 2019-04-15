@@ -18,5 +18,7 @@ public class Singleton1 {
     public static Singleton1 getInstance(){
        return  singleton1;
     }
-
+    public int   getCount(){
+        return  1;
+    }
 }
