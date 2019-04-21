@@ -1,24 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29d00174-f752-4f76-998a-7aae06714e1a" name="Default Changelist" comment="" />
+    <list default="true" id="29d00174-f752-4f76-998a-7aae06714e1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/letter/user/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letter/user/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper/zookeeperLock/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article2/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article2/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article2/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article2/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article2/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article2/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article3/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article3/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article3/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article3/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article3/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article3/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article_hystrix/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article_hystrix/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article_hystrix/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article_hystrix/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/article_hystrix/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article_hystrix/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/comsumer-hystrix-dashboard/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer-hystrix-dashboard/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/comsumer/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/comsumer_feign/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer_feign/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/comsumer_hystrix/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer_hystrix/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/comsumer_rabbion/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer_rabbion/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/eureka/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/eureka/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/eureka2/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/eureka2/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/security/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/security/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/service-api/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/service-api/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/service/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/service/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/letter/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/letter/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/turbine/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/turbine/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/user/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/user/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letter/zuul-gateway/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/zuul-gateway/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper/zookeeperLock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/zookeeperLock/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="width" value="1292" />
     <option name="height" value="780" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -30,6 +66,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -37,7 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553781782167" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ruoyi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -66,16 +103,17 @@
       <workItem from="1552980565528" duration="50000" />
       <workItem from="1553158451576" duration="102000" />
       <workItem from="1553781717124" duration="355000" />
+      <workItem from="1555396800611" duration="143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="507000" />
+    <option name="totallyTimeSpent" value="650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1292" height="780" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25811687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26217532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

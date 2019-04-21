@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.yhh.practice.springboot.test.Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.107 s <<< FAILURE! - in com.yhh.practice.springboot.test.Test
+test1(com.yhh.practice.springboot.test.Test)  Time elapsed: 1.106 s  <<< ERROR!
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.yhh.practice.springboot.dao.orders.OrdersMapper.insertSelective
+	at com.yhh.practice.springboot.test.Test.test1(Test.java:31)
+
