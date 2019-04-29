@@ -1,2 +1,7 @@
+com\yhh\service\fallback\IProductClientServiceFallbackFactory.class
+com\yhh\service\fallback\IZUUlClientServiceallbackFactory$1.class
 com\yhh\service\feigin\FeignClientConfig.class
+com\yhh\service\fallback\IZUUlClientServiceallbackFactory.class
 com\yhh\service\IProductClientService.class
+com\yhh\service\fallback\IProductClientServiceFallbackFactory$1.class
+com\yhh\service\IZUUlClientService.class

@@ -1,3 +1,4 @@
+/*
 package com.yhh.practice.springboot;
 
 import org.springframework.boot.SpringApplication;
@@ -21,3 +22,4 @@ public class SpringbootApplication2  extends SpringBootServletInitializer {
     }
 
 }
+*/

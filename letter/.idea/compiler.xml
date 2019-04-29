@@ -19,6 +19,7 @@
         <module name="eureka2" />
         <module name="security" />
         <module name="service" />
+        <module name="service-api" />
         <module name="serviceapi" />
         <module name="turbine" />
         <module name="user" />

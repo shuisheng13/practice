@@ -2,35 +2,278 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a3cbf3-072e-4c23-b2d1-49fcea40ba63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/article/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/target/letter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/article/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/article/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/article/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/article/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/article/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/article/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/article/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article2/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/article2/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article2/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/article2/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article2/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/article2/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article3/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/article3/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article3/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/article3/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article3/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/article3/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article_hystrix/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/article_hystrix/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article_hystrix/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/article_hystrix/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article_hystrix/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/article_hystrix/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/classes/com/yhh/article/ArticleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/classes/com/yhh/article/ArticleApplication2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/classes/com/yhh/article/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/classes/com/yhh/article/mapper/ProductMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/classes/com/yhh/article/service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/classes/com/yhh/article/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/classes/mapping/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/letter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/test-classes/com/yhh/practice/article/ArticleApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article2/target/test-classes/com/yhh/practice/article/product/ProductServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/classes/META-INF/article3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/classes/com/yhh/article/ArticleApplication3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/classes/com/yhh/article/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/classes/com/yhh/article/mapper/ProductMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/classes/com/yhh/article/service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/classes/com/yhh/article/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/classes/mapping/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/letter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/test-classes/com/yhh/practice/article/ArticleApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article3/target/test-classes/com/yhh/practice/article/product/ProductServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/classes/META-INF/article_hystrix.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/classes/com/yhh/article/ArticleHystrixApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/classes/com/yhh/article/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/classes/com/yhh/article/mapper/ProductMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/classes/com/yhh/article/service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/classes/com/yhh/article/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/classes/mapping/ProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/letter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/test-classes/com/yhh/practice/article/ArticleApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_hystrix/target/test-classes/com/yhh/practice/article/product/ProductServiceTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer-hystrix-dashboard/target/test-classes/META-INF/comsumer-hystrix-dashboard.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/comsumer/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comsumer_feign/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_feign/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_feign/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_feign/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_feign/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_feign/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_feign/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_feign/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_feign/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comsumer_hystrix/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_hystrix/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_hystrix/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_hystrix/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_hystrix/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_hystrix/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_hystrix/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_hystrix/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_hystrix/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_hystrix/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_hystrix/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_hystrix/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_rabbion/comsumer_rabbion.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/comsumer_rabbion/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_rabbion/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka2/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka2/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_rabbion/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_rabbion/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_rabbion/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_rabbion/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_rabbion/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_rabbion/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_rabbion/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_rabbion/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsumer_rabbion/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/comsumer_rabbion/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/com/yhh/eureka/EurekaApplication1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/classes/com/yhh/eureka/EurekaSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/letter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/target/test-classes/com/yhh/eureka/EurekaApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/classes/META-INF/eureka (1).kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/classes/com/yhh/eureka/EurekaApplication2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/classes/com/yhh/eureka/EurekaSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/letter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka2/target/test-classes/com/yhh/eureka/EurekaApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/security.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/classes/com/yhh/security/WebSecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/letter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service-api/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service-api/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/META-INF/service.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbine/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbine/target/classes/com/yhh/practice/turbine/TurbineApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbine/target/letter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbine/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbine/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbine/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway/target/letter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/classes/com/yhh/practice/zuulgateway/ZuulGatewayApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/classes/com/yhh/practice/zuulgateway/config/ZuulConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/classes/com/yhh/practice/zuulgateway/filter/AuthorizedRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/letter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_atomikos_util_4_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_atomikos_util_4_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_4_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_4_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_api_4_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_api_4_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_jdbc_4_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_jdbc_4_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_jms_4_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_jms_4_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_jta_4_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_atomikos_transactions_jta_4_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_yhh_practice_redis_plugs_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_yhh_practice_redis_plugs_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jta_atomikos_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jta_atomikos_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/libraries/Maven__redis_clients_jedis_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/springboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/java/com/yhh/practice/springboot/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/yhh/practice/springboot/SpringbootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/java/com/yhh/practice/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/yhh/practice/springboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/test/java/com/yhh/practice/springboot/redisplugs/RedisPlugsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/test/java/com/yhh/practice/springboot/redisplugs/RedisPlugsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/SpringbootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/SpringbootApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/test-classes/com/yhh/practice/springboot/redisplugs/RedisPlugsTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,27 +306,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zuul-gateway/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security/src/main/java/com.yhh.security/WebSecurityConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="162">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
@@ -92,7 +317,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zuul-gateway/src/main/java/com/yhh/practice/zuulgateway/ZuulGatewayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="216">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
@@ -101,7 +326,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/yhh/eureka/EurekaApplication1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="216">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
@@ -110,7 +335,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="270">
               <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
@@ -119,7 +344,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/src/main/java/com/yhh/practice/comsumerhystrixdashboard/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="81">
               <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
@@ -128,7 +353,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-api/src/main/java/com.yhh.api/vo/Users.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="270">
               <caret line="18" column="5" selection-start-line="16" selection-start-column="31" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#381#382#0" expanded="true" />
@@ -138,11 +363,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" selection-start-line="10" selection-end-line="14" />
+            <state relative-caret-position="41">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/article/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yhh/service/fallback/IProductClientServiceFallbackFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#909#910#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,7 +394,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="1026">
               <caret line="38" column="45" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="45" />
             </state>
           </provider>
@@ -175,10 +419,11 @@
       <find>security</find>
       <find>instance</find>
       <find>MICROCLOUD-PROVIDER-PRODUCT</find>
+      <find>config</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -237,23 +482,31 @@
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="article" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="article" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1278" />
@@ -267,6 +520,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,12 +528,16 @@
               <item name="letter" type="b2602c69:ProjectViewProjectNode" />
               <item name="letter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="letter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letter" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,6 +554,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/article/src/main/java/com/yhh.article/vo/Article.java" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/comsumer/src/main/java/com/yhh/practice/comsumer" />
   </component>
@@ -490,6 +749,8 @@
       <workItem from="1555893757225" duration="1650000" />
       <workItem from="1555916539109" duration="656000" />
       <workItem from="1555919334232" duration="607000" />
+      <workItem from="1556096969301" duration="890000" />
+      <workItem from="1556169760187" duration="168000" />
     </task>
     <servers />
   </component>
@@ -505,12 +766,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45213000" />
+    <option name="totallyTimeSpent" value="46271000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1278" height="726" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32676518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -520,7 +781,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30639732" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3153457" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.771855" weight="0.36984816" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.05059022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +789,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22814499" side_tool="true" visible="true" weight="0.36984816" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.24789207" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -536,7 +797,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.12889984" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.36620468" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -583,33 +844,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/config" />
+      <path value="$PROJECT_DIR$/config/letterconfig" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/article_hystrix/src/main/java/com/yhh.article/service/IProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.0.RELEASE/spring-cloud-openfeign-core-2.0.0.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yhh/service/fallback/IProductClientServiceFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.0.RELEASE/spring-cloud-openfeign-core-2.0.0.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class" />
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yhh/service/IProductClientService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -748,13 +990,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/impl/client/CloseableHttpClient.class" />
     <entry file="file://$PROJECT_DIR$/comsumer_feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -862,56 +1098,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="729">
           <caret line="27" column="40" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="270">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security/src/main/java/com.yhh.security/WebSecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="162">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zuul-gateway/src/main/java/com/yhh/practice/zuulgateway/ZuulGatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="216">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/yhh/eureka/EurekaApplication1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="216">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="270">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/src/main/java/com/yhh/practice/comsumerhystrixdashboard/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="81">
           <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-api/src/main/java/com.yhh.api/vo/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="270">
           <caret line="18" column="5" selection-start-line="16" selection-start-column="31" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#381#382#0" expanded="true" />
@@ -920,19 +1156,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/yhh/service/fallback/IProductClientServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="1026">
           <caret line="38" column="45" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="10" selection-end-line="14" />
+        <state relative-caret-position="41">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -951,7 +1202,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -991,7 +1242,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

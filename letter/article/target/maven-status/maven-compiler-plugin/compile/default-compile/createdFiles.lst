@@ -1,0 +1,5 @@
+com\yhh\article\mapper\ProductMapper.class
+com\yhh\article\ArticleApplication.class
+com\yhh\article\controller\ProductController.class
+com\yhh\article\service\impl\ProductServiceImpl.class
+com\yhh\article\service\IProductService.class
