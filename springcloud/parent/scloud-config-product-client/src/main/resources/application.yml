@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: scloud-config-product-client
+  security:
+    user:
+      name: admin
+      password: enjoy

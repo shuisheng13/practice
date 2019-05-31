@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-config-product-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-config2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-config3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-consumer-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-consumer-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-eureka2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-eureka3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-ha-config-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-ha-config-eureka2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-ha-config-eureka3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-product-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-product2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-product3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-user-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scloud-zuul" charset="UTF-8" />
+  </component>
+</project>

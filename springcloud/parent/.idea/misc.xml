@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-product/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-consumer-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-user-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-consumer-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-config-client/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

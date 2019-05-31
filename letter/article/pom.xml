@@ -23,16 +23,18 @@
             <artifactId>service-api</artifactId>
             <version>1.0</version>
         </dependency>
-        <!--<dependency>
+        <dependency>
             <groupId>com.yhh.practice</groupId>
             <artifactId>security</artifactId>
             <version>1.0</version>
-        </dependency>-->
+        </dependency>
+
 
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>

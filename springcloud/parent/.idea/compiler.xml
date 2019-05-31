@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="scloud-api" />
+        <module name="scloud-config" />
+        <module name="scloud-config-client" />
+        <module name="scloud-config-product-client" />
+        <module name="scloud-config2" />
+        <module name="scloud-config3" />
+        <module name="scloud-consumer" />
+        <module name="scloud-consumer-feign" />
+        <module name="scloud-consumer-hystrix" />
+        <module name="scloud-consumer-hystrix-dashboard" />
+        <module name="scloud-consumer-turbine" />
+        <module name="scloud-eureka" />
+        <module name="scloud-eureka-client" />
+        <module name="scloud-eureka2" />
+        <module name="scloud-eureka3" />
+        <module name="scloud-ha-config-eureka" />
+        <module name="scloud-ha-config-eureka2" />
+        <module name="scloud-ha-config-eureka3" />
+        <module name="scloud-product" />
+        <module name="scloud-product-hystrix" />
+        <module name="scloud-product2" />
+        <module name="scloud-product3" />
+        <module name="scloud-security" />
+        <module name="scloud-service" />
+        <module name="scloud-user-hystrix" />
+        <module name="scloud-zuul" />
+        <module name="scloudapi" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="scloud-config" options="" />
+      <module name="scloud-config-client" options="" />
+      <module name="scloud-consumer" options="" />
+      <module name="scloud-consumer-hystrix-dashboard" options="" />
+      <module name="scloud-consumer-turbine" options="" />
+      <module name="scloud-eureka" options="" />
+      <module name="scloud-product" options="" />
+      <module name="scloud-user-hystrix" options="" />
+      <module name="scloud-zuul" options="" />
+    </option>
+  </component>
+</project>

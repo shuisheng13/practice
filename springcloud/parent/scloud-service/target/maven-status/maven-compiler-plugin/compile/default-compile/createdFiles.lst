@@ -1,0 +1,7 @@
+com\yhh\springcloud\scloudservice\service\fallback\IProductClientServiceFallbackFactory$1.class
+com\yhh\springcloud\scloudservice\service\fallback\IZUUlClientServiceallbackFactory$1.class
+com\yhh\springcloud\scloudservice\config\FeignClientConfig.class
+com\yhh\springcloud\scloudservice\service\IZUUlClientService.class
+com\yhh\springcloud\scloudservice\service\fallback\IProductClientServiceFallbackFactory.class
+com\yhh\springcloud\scloudservice\service\fallback\IZUUlClientServiceallbackFactory.class
+com\yhh\springcloud\scloudservice\service\IProductClientService.class

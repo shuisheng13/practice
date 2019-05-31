@@ -1,0 +1,19 @@
+server:
+  port: 7101
+
+spring:
+  application:
+    name: scloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/shuisheng13/scloud-config.git
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:enjoy@eureka1:7301/eureka,http://admin:enjoy@eureka2:7302/eureka,http://admin:enjoy@eureka3:7303/eureka
+  instance:
+    prefer-ip-address: true # 在地址栏上使用IP地址进行显示
+    instance-id: scloud-config1

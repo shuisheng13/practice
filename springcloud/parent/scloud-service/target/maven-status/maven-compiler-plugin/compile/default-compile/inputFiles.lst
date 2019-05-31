@@ -1,0 +1,5 @@
+E:\practice\springcloud\parent\scloud-service\src\main\java\com\yhh\springcloud\scloudservice\config\FeignClientConfig.java
+E:\practice\springcloud\parent\scloud-service\src\main\java\com\yhh\springcloud\scloudservice\service\fallback\IZUUlClientServiceallbackFactory.java
+E:\practice\springcloud\parent\scloud-service\src\main\java\com\yhh\springcloud\scloudservice\service\IProductClientService.java
+E:\practice\springcloud\parent\scloud-service\src\main\java\com\yhh\springcloud\scloudservice\service\IZUUlClientService.java
+E:\practice\springcloud\parent\scloud-service\src\main\java\com\yhh\springcloud\scloudservice\service\fallback\IProductClientServiceFallbackFactory.java

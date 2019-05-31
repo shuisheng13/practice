@@ -1,7 +1,7 @@
 package com.yhh.practice.article.product;
 
 import com.yhh.api.vo.Product;
-import com.yhh.article.ArticleApplication;
+import com.yhh.article.ArticleApplication2;
 import com.yhh.article.service.IProductService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
 
-@SpringBootTest(classes = ArticleApplication.class)
+@SpringBootTest(classes = ArticleApplication2.class)
 @RunWith(SpringRunner.class)
 public class ProductServiceTest {
     @Resource
