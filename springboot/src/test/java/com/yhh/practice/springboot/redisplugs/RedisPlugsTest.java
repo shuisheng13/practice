@@ -1,6 +1,6 @@
 package com.yhh.practice.springboot.redisplugs;
 
-import com.yhh.practice.springboot.SpringbootApplication;
+/*import com.yhh.practice.springboot.SpringbootApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -24,4 +24,4 @@ public class RedisPlugsTest {
     }
 
 
-}
+}*/

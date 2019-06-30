@@ -21,7 +21,7 @@ public class UserController {
    @RequestMapping("/hellow")
    public Object sayHellow(){
        logger.debug("这是一个hellow2日志");
-       return "hellow4";
+       return "hellow5112";
    }
 
     @RequestMapping("/login")

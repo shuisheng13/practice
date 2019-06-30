@@ -15,5 +15,13 @@ public class ThymeleafController {
         // 对应src/main/resources/templates/testThymeleaf.html
         return "testThymeleaf";
     }
+    @RequestMapping("/testThymeleaf2")
+    public String testThymeleaf2(ModelMap map) {
+        // 设置属性
+        map.addAttribute("name", "enjoy");
+        // testThymeleaf：为模板文件的名称
+        // 对应src/main/resources/templates/testThymeleaf.html
+        return "testThymeleaf2";
+    }
 }
 

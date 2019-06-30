@@ -1,5 +1,5 @@
-D:\practice\letter\service\src\main\java\com\yhh\service\IZUUlClientService.java
-D:\practice\letter\service\src\main\java\com\yhh\service\fallback\IProductClientServiceFallbackFactory.java
-D:\practice\letter\service\src\main\java\com\yhh\service\feigin\FeignClientConfig.java
-D:\practice\letter\service\src\main\java\com\yhh\service\IProductClientService.java
-D:\practice\letter\service\src\main\java\com\yhh\service\fallback\IZUUlClientServiceallbackFactory.java
+E:\practice\letter\service\src\main\java\com\yhh\service\fallback\IProductClientServiceFallbackFactory.java
+E:\practice\letter\service\src\main\java\com\yhh\service\IProductClientService.java
+E:\practice\letter\service\src\main\java\com\yhh\service\IZUUlClientService.java
+E:\practice\letter\service\src\main\java\com\yhh\service\feigin\FeignClientConfig.java
+E:\practice\letter\service\src\main\java\com\yhh\service\fallback\IZUUlClientServiceallbackFactory.java
