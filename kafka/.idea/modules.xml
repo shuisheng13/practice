@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kafka.iml" filepath="$PROJECT_DIR$/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-no-spring/kafka-no-spring.iml" filepath="$PROJECT_DIR$/kafka-no-spring/kafka-no-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-stream/kafka-stream.iml" filepath="$PROJECT_DIR$/kafka-stream/kafka-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-traffic-shaping/kafka-traffic-shaping.iml" filepath="$PROJECT_DIR$/kafka-traffic-shaping/kafka-traffic-shaping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-traffic-shaping-client/kafka-traffic-shaping-client.iml" filepath="$PROJECT_DIR$/kafka-traffic-shaping-client/kafka-traffic-shaping-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-with-spring/kafka-with-spring.iml" filepath="$PROJECT_DIR$/kafka-with-spring/kafka-with-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-with-springboot/kafka-with-springboot.iml" filepath="$PROJECT_DIR$/kafka-with-springboot/kafka-with-springboot.iml" />
+    </modules>
+  </component>
+</project>

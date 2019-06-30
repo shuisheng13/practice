@@ -1,82 +1,577 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="kafka-with-spring:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d00174-f752-4f76-998a-7aae06714e1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/letter/user/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/letter/user/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper/zookeeperLock/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article2/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article2/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article2/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article2/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article2/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article2/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article3/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article3/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article3/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article3/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article3/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article3/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article_hystrix/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article_hystrix/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article_hystrix/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article_hystrix/target/surefire-reports/TEST-com.yhh.practice.article.product.ProductServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/article_hystrix/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/letter/article_hystrix/target/surefire-reports/com.yhh.practice.article.product.ProductServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/comsumer-hystrix-dashboard/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer-hystrix-dashboard/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/comsumer/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/comsumer_feign/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer_feign/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/comsumer_hystrix/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer_hystrix/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/comsumer_rabbion/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/comsumer_rabbion/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/eureka/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/eureka/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/eureka2/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/eureka2/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/security/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/security/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/service-api/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/service-api/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/service/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/service/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/letter/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/letter/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/turbine/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/turbine/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/user/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/user/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter/zuul-gateway/target/letter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/letter/zuul-gateway/target/letter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper/zookeeperLock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/zookeeperLock/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1f76b608-2c25-420e-bb64-a67c90984904" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/no-spring/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/am-with-spring-p/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/am-with-spring-p/am-with-spring-c/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/am-with-sprimg-c/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/am-with-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/asyncApp/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/am-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/activemq/delayOrder/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/native/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/rq-spring-with/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/rq-spring-with-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/rq-order/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/rq-springboot-with/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq/rq-depot/target/" />
+    <ignored path="$PROJECT_DIR$/rq-springboot-with/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/kafka-no-spring/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/kafka-with-spring/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/kafka-with-springboot/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/kafka-traffic-shaping-client/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/kafka-traffic-shaping/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/kafka-stream/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MakeWords.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka/kafka-stream/src/main/java/cn/enjoyedu/MakeWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordCountExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kafka/kafka-stream/src/main/java/cn/enjoyedu/WordCountExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DEFAULT_USER</find>
+      <find>15</find>
+      <find>deliveryTag:15</find>
+      <find>strategy</find>
+      <find>acks</find>
+      <find>max.block.ms</find>
+      <find>retry.back</find>
+      <find>client.id</find>
+      <find>max.in.</find>
+      <find>max.request.s</find>
+      <find>auto.off</find>
+      <find>partition.a</find>
+      <find>receiv</find>
+      <find>enab</find>
+      <find>auto.commit.</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\XiangXue\vipLesson\MQ\code\ketang-mq\activemq\am-with-spring-p</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rabbitmq/rq-depot/src/main/java/cn/enjoyedu/mq/ProcessDepot.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/rq-order/src/main/java/cn/enjoyedu/service/MqMode.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/rq-springboot-with/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rabbitmq/rq-springboot-with/src/main/java/cn/enjoyedu/config/ProcessDepot.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/rq-springboot-with/src/main/java/cn/enjoyedu/config/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/rq-springboot-with/src/main/java/cn/enjoyedu/hello/DefaultSender.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/sendtype/package-info.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/native/src/main/java/cn/enjoyedu/testrabbitmq/TestConsumerNode2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/native/src/main/java/cn/enjoyedu/testrabbitmq/TestProducerNode2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/native/src/main/java/cn/enjoyedu/mirrorqueue/MirrorProducer2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq/native/src/main/java/cn/enjoyedu/mirrorqueue/MirrrorConsumer2.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/selfpartition/SysPartitionProducer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/consumergroup/TestGroupProducer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/hellokafka/HelloKafkaProducer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/sendtype/KafkaFutureProducer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/sendtype/KafkaAsynProducer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/concurrent/KafkaConProducer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/selfserial/SelfDeserializer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/selfserial/SelfSerialConsumer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/selfserial/SelfSerialProducer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/config/BusiConst.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/consumergroup/GroupCConsumer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/consumergroup/GroupBConsumer2.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/consumergroup/package-info.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/selfpartition/SelfPartitionProducer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/selfserial/SelfSerializer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/selfpartition/SelfPartitioner.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/concurrent/KafkaConConsumer.java" />
+        <option value="$PROJECT_DIR$/activemq/am-with-spring-p/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/kafka-with-spring/src/main/resources/config/kafka.properties" />
+        <option value="$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/hellokafka/HelloKafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/commit/CommitSpecial.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/commit/CommitSync.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/rebalance/HandlerRebalance.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/rebalance/ConsumerWorker.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/independconsumer/IndependConsumer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-with-spring/src/main/java/cn/enjoyedu/service/SendListener.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-with-spring/src/main/java/cn/enjoyedu/service/KafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-with-spring/src/main/webapp/WEB-INF/config/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/kafka/kafka-with-spring/src/main/java/cn/enjoyedu/service/KafkaConsumerAck.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-traffic-shaping/readme.txt" />
+        <option value="$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/db/package-info.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/db/SqlConnectImpl.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/db/DBPool.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/service/ConsumerService.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-with-springboot/src/main/java/cn/enjoyedu/config/KafkaConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/commit/CommitAsync.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-traffic-shaping-client/src/test/java/cn/enjoyedu/TestKafka.java" />
+        <option value="$PROJECT_DIR$/kafka/kafka-stream/src/main/java/cn/enjoyedu/WordCountExample.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1292" />
-    <option name="height" value="780" />
+    <option name="x" value="-8" />
+    <option name="width" value="1555" />
+    <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-no-spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-no-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-no-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-no-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-no-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-no-spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+              <item name="hellokafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-traffic-shaping-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-with-springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-with-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-with-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-with-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-with-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-with-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-with-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-with-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enjoyedu" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ketang-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-with-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ketang-mq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553781782167" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ruoyi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Temp/kafka-streams-wordcount-master/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2505747" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\XiangXue\vipLesson\MQ\code\ketang-mq\activemq\delayOrder\src\main\java\cn\enjoyedu\model" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.enjoyedu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.enjoyedu" />
+      <recent name="cn.enjoyedu.service" />
+      <recent name="cn.enjoyedu.config" />
+      <recent name="cn.enjoyedu.selfserial" />
+      <recent name="cn.enjoyedu.fanout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XiangXue\vipLesson\MQ\code\ketang-mq\kafka" />
+      <recent name="D:\XiangXue\vipLesson\MQ\code\ketang-mq\kafka\kafka-with-spring" />
+      <recent name="D:\XiangXue\vipLesson\MQ\code\ketang-mq\kafka\kafka-no-spring\src\main\java\cn\enjoyedu\rebalance" />
+      <recent name="D:\XiangXue\vipLesson\MQ\code\ketang-mq\kafka\kafka-no-spring\src\main\java\cn\enjoyedu\consumergroup" />
+      <recent name="D:\XiangXue\vipLesson\MQ\code\ketang-mq\kafka\kafka-no-spring\src\main\java\cn\enjoyedu\config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,60 +585,1278 @@
       </list>
     </option>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="RunManager" selected="JUnit.TestKafka.testKafkaMq">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="DlxProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.dlx.DlxProducer" />
+      <module name="native" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="IndependConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.independconsumer.IndependConsumer" />
+      <module name="kafka-no-spring" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MakeWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.MakeWords" />
+      <module name="kafka-stream" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="WordCountExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.WordCountExample" />
+      <module name="kafka-stream" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestInvokeRemote.testInvokeRemote" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-traffic-shaping-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.enjoyedu" />
+      <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.TestInvokeRemote" />
+      <option name="METHOD_NAME" value="testInvokeRemote" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestKafka.testKafkaMq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka-traffic-shaping-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.enjoyedu" />
+      <option name="MAIN_CLASS_NAME" value="cn.enjoyedu.TestKafka" />
+      <option name="METHOD_NAME" value="testKafkaMq" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AmSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="am-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoyedu.AmSpringbootApplication" />
+    </configuration>
+    <configuration name="KafkaTrafficShapingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-traffic-shaping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoyedu.KafkaTrafficShapingApplication" />
+    </configuration>
+    <configuration name="KafkaTrafficShapingClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-traffic-shaping-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoyedu.KafkaTrafficShapingClient" />
+    </configuration>
+    <configuration name="KafkaWithSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka-with-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoyedu.KafkaWithSpringbootApplication" />
+    </configuration>
+    <configuration name="RqSpringbootWithApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rq-springboot-with" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoyedu.RqSpringbootWithApplication" />
+    </configuration>
+    <configuration name="WithSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="with-springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoyedu.WithSpringbootApplication" />
+    </configuration>
+    <configuration name="am-spring-c" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55(2)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/am-spring-c/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="am-with-sprimg-c:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/am-spring-c" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ketang-mq_2" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65194" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="am-with-sprimg-c:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="am-with-spring-p" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55(2)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="am-with-spring-p:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/am-with-spring-p" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ketang-mq_6" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59449" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="am-with-spring-p:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="asyncApp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55(2)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/asyncApp/index" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="asyncApp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/asyncApp" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ketang-mq_3" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52093" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="asyncApp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="delayOrder" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55(2)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/delayOrder/index" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="delayOrder:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/delayOrder" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ketang-mq_4" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52926" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="delayOrder:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="kafka-with-spring" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55(2)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/kafka-with-spring/" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="kafka-with-spring:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/kafka-with-spring" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ketang-mq_10" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65517" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="kafka-with-spring:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="rq-depot" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55(2)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/rq-depot/depotIndex" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="rq-depot:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/rq-depot" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ketang-mq_9" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56112" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="rq-depot:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="rq-order" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55(2)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/rq-order/order" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="rq-order:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/rq-order" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ketang-mq_8" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56102" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="rq-order:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="rq-spring-with-consumer" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55(2)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="rq-spring-with-consumer:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/rq-spring-with-consumer" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ketang-mq_7" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56085" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="rq-spring-with-consumer:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="rq-spring-with" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.55(2)" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/rq-spring-with/index.jsp" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="rq-spring-with:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/rq-spring-with" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ketang-mq_5" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56046" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="rq-spring-with:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.WithSpringbootApplication" />
+      <item itemvalue="Spring Boot.AmSpringbootApplication" />
+      <item itemvalue="Spring Boot.RqSpringbootWithApplication" />
+      <item itemvalue="Spring Boot.KafkaWithSpringbootApplication" />
+      <item itemvalue="Spring Boot.KafkaTrafficShapingClient" />
+      <item itemvalue="Spring Boot.KafkaTrafficShapingApplication" />
+      <item itemvalue="Tomcat Server.kafka-with-spring" />
+      <item itemvalue="Tomcat Server.rq-spring-with" />
+      <item itemvalue="Tomcat Server.rq-spring-with-consumer" />
+      <item itemvalue="Tomcat Server.rq-order" />
+      <item itemvalue="Tomcat Server.rq-depot" />
+      <item itemvalue="Tomcat Server.delayOrder" />
+      <item itemvalue="Tomcat Server.asyncApp" />
+      <item itemvalue="Tomcat Server.am-spring-c" />
+      <item itemvalue="Tomcat Server.am-with-spring-p" />
+      <item itemvalue="Application.IndependConsumer" />
+      <item itemvalue="Application.WordCountExample" />
+      <item itemvalue="Application.MakeWords" />
+      <item itemvalue="JUnit.TestInvokeRemote.testInvokeRemote" />
+      <item itemvalue="JUnit.TestKafka.testKafkaMq" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestKafka.testKafkaMq" />
+        <item itemvalue="JUnit.TestInvokeRemote.testInvokeRemote" />
+        <item itemvalue="Application.MakeWords" />
+        <item itemvalue="Application.WordCountExample" />
+        <item itemvalue="Application.IndependConsumer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29d00174-f752-4f76-998a-7aae06714e1a" name="Default Changelist" comment="" />
-      <created>1552980562021</created>
+      <changelist id="1f76b608-2c25-420e-bb64-a67c90984904" name="Default" comment="" />
+      <created>1542850388878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552980562021</updated>
-      <workItem from="1552980565528" duration="50000" />
-      <workItem from="1553158451576" duration="102000" />
-      <workItem from="1553781717124" duration="355000" />
-      <workItem from="1555396800611" duration="143000" />
+      <updated>1542850388878</updated>
+      <workItem from="1542850392048" duration="2618000" />
+      <workItem from="1542855238549" duration="35812000" />
+      <workItem from="1543283381931" duration="26194000" />
+      <workItem from="1543385299262" duration="1515000" />
+      <workItem from="1543398041851" duration="13000" />
+      <workItem from="1543590071362" duration="61825000" />
+      <workItem from="1544003948602" duration="27962000" />
+      <workItem from="1544353717148" duration="8773000" />
+      <workItem from="1544425153821" duration="9058000" />
+      <workItem from="1544684450283" duration="68400000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AmSpringbootApplicationTests_testReplyTo - 2018.11.27 at 20h 15m 07s.xml">
+      <configuration name="AmSpringbootApplicationTests.testReplyTo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmSpringbootApplicationTests_testReplyTo - 2018.11.27 at 20h 15m 27s.xml">
+      <configuration name="AmSpringbootApplicationTests.testReplyTo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmSpringbootApplicationTests_testReplyTo - 2018.11.27 at 20h 16m 35s.xml">
+      <configuration name="AmSpringbootApplicationTests.testReplyTo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestInvokeRemote_testInvokeRemote - 2018.12.20 at 17h 30m 01s.xml">
+      <configuration name="TestInvokeRemote.testInvokeRemote" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKafka - 2018.12.20 at 17h 30m 36s.xml">
+      <configuration name="TestKafka" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKafka - 2018.12.20 at 18h 48m 02s.xml">
+      <configuration name="TestKafka" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestInvokeRemote_testInvokeRemote - 2018.12.23 at 19h 15m 30s.xml">
+      <configuration name="TestInvokeRemote.testInvokeRemote" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKafka_testKafkaMq - 2018.12.23 at 19h 17m 11s.xml">
+      <configuration name="TestKafka.testKafkaMq" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestInvokeRemote_testInvokeRemote - 2018.12.23 at 20h 35m 42s.xml">
+      <configuration name="TestInvokeRemote.testInvokeRemote" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKafka_testKafkaMq - 2018.12.23 at 20h 50m 12s.xml">
+      <configuration name="TestKafka.testKafkaMq" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="650000" />
+    <option name="totallyTimeSpent" value="242170000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1292" height="780" extended-state="0" />
+    <frame x="-6" y="0" width="1244" height="840" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26217532" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3288364" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24957842" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.5088106" side_tool="true" weight="0.2951096" />
+      <window_info anchor="right" id="JSF" order="7" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36588922" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.40816328" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.49854228" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3148688" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.32944608" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49118942" visible="true" weight="0.29089376" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37026238" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="JSF" order="7" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3265306" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32944608" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23773266" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/commit/CommitSpecial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding>
+            <element signature="e#1222#1257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1-sources.jar!/org/apache/kafka/clients/KafkaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1-sources.jar!/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="169" column="22" lean-forward="true" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/config/BusiConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/rebalance/RebalanceProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/rebalance/RebalanceConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1-sources.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="909" column="56" lean-forward="true" selection-start-line="909" selection-start-column="23" selection-end-line="909" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/independconsumer/NormalProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/independconsumer/IndependConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding>
+            <element signature="e#1390#1406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/1.1.5.RELEASE/spring-kafka-1.1.5.RELEASE-sources.jar!/org/springframework/kafka/core/KafkaTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="112" column="38" lean-forward="true" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/1.1.5.RELEASE/spring-kafka-1.1.5.RELEASE-sources.jar!/org/springframework/kafka/support/ProducerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ketang-mq.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-spring/src/main/java/cn/enjoyedu/service/KafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping-client/src/main/java/cn/enjoyedu/config/KafkaProducerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-springboot/src/main/java/cn/enjoyedu/controller/KafkaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping-client/src/main/java/cn/enjoyedu/config/KafkaConsumerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-4.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="601" column="29" selection-start-line="601" selection-start-column="29" selection-end-line="601" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/rebalance/HandlerRebalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/rebalance/ConsumerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/sendtype/KafkaAsynProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="e#1082#1582#0" expanded="true" />
+            <element signature="e#1581#1582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/db/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/db/SqlCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/db/SleepTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/commit/CommitAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-spring/src/main/java/cn/enjoyedu/controller/KafkaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-spring/src/main/java/cn/enjoyedu/service/SendListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-springboot/src/main/java/cn/enjoyedu/KafkaWithSpringbootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-springboot/src/main/java/cn/enjoyedu/service/KafkaSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-springboot/src/main/java/cn/enjoyedu/config/KafkaProducerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-spring/src/main/java/cn/enjoyedu/service/KafkaConsumerAck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-spring/src/main/webapp/WEB-INF/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="134" column="69" lean-forward="true" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="69" />
+          <folding>
+            <element signature="e#5905#5921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-springboot/src/main/java/cn/enjoyedu/service/MyListenerAck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/config/KafkaProducerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/controller/KafkaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/db/SqlConnectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/service/DBService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/db/DBPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/KafkaTrafficShapingApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-springboot/src/main/java/cn/enjoyedu/config/KafkaConsumerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="102" column="44" lean-forward="true" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping-client/src/test/java/cn/enjoyedu/TestInvokeRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-with-springboot/src/main/java/cn/enjoyedu/service/MyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/service/SpringContextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping-client/src/test/java/cn/enjoyedu/TestKafka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-traffic-shaping/src/main/java/cn/enjoyedu/service/ConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/hellokafka/HelloKafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="33" column="42" selection-start-line="32" selection-start-column="16" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-no-spring/src/main/java/cn/enjoyedu/hellokafka/HelloKafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-stream/src/main/java/cn/enjoyedu/MakeWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/kafka-stream/src/main/java/cn/enjoyedu/WordCountExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>am-with-sprimg-c:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2505747" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2505747" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2505747" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ketang-mq</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2505747" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-access:1.0.13</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

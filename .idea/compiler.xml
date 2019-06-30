@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="am-springboot" />
+        <module name="am-with-sprimg-c" />
+        <module name="am-with-spring-p" />
+        <module name="asyncApp" />
+        <module name="delayOrder" />
+        <module name="kafka-no-spring" />
+        <module name="kafka-stream" />
+        <module name="kafka-traffic-shaping" />
+        <module name="kafka-traffic-shaping-client" />
+        <module name="kafka-with-spring" />
+        <module name="kafka-with-springboot" />
+        <module name="native" />
+        <module name="no-spring" />
+        <module name="rq-depot" />
+        <module name="rq-order" />
+        <module name="rq-spring-with" />
+        <module name="rq-spring-with-consumer" />
+        <module name="rq-springboot-with" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="am-with-spring-c" target="1.5" />
+      <module name="am-with-springboot" target="1.5" />
+      <module name="demo" target="1.8" />
+      <module name="with-springboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
