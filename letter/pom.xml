@@ -22,14 +22,21 @@
             <module>article</module>
             <module>article2</module>
             <module>article3</module>
+            <module>config-article</module>
             <module>article_hystrix</module>
             <module>service-api</module>
             <module>security</module>
             <module>eureka</module>
             <module>eureka2</module>
+            <module>config-eureka</module>
+            <module>ha-config-eureka</module>
             <module>service</module>
             <module>turbine</module>
             <module>zuul-gateway</module>
+            <module>config</module>
+            <module>config2</module>
+            <module>config3</module>
+            <module>config-client</module>
 
         </modules>
         <dependencyManagement>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30239d00-5c4a-4aa3-a9d4-4fd3fe759be2" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../springboot/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/concurrentFrame.iml" beforeDir="false" />
@@ -14,6 +15,11 @@
       <change beforePath="$PROJECT_DIR$/../springboot/target/surefire-reports/TEST-com.yhh.practice.springboot.test.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/target/surefire-reports/TEST-com.yhh.practice.springboot.test.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot/target/surefire-reports/com.yhh.practice.springboot.UserTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/target/surefire-reports/com.yhh.practice.springboot.UserTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot/target/surefire-reports/com.yhh.practice.springboot.test.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/target/surefire-reports/com.yhh.practice.springboot.test.Test.txt" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi" beforeDir="false" afterPath="$PROJECT_DIR$/../ruoyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thread/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +34,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/ITaskProcesser.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="270">
+=======
+            <state relative-caret-position="250">
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
               <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
@@ -37,7 +47,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/JobInfo.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1701">
+=======
+            <state relative-caret-position="1575">
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
               <caret line="76" column="48" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,8 +65,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/core/PendingJobPool.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="320">
               <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="46" />
+=======
+            <state relative-caret-position="2575">
+              <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +82,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/core/CheckJobProcesser.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="108">
               <caret line="4" column="23" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
+=======
+            <state relative-caret-position="1075">
+              <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
               <folding>
                 <element signature="e#205#221#0" expanded="true" />
               </folding>
@@ -75,8 +99,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/core/ItemVo.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="499">
               <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+=======
+            <state relative-caret-position="925">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/Delayed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
             </state>
           </provider>
         </entry>
@@ -84,7 +122,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/TaskResult.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="675">
+=======
+            <state relative-caret-position="193">
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
               <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
             </state>
           </provider>
@@ -93,8 +135,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/test/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="518">
               <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+=======
+            <state>
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="27" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +152,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/test/MyTask.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="405">
               <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+=======
+            <state relative-caret-position="101">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="9" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,7 +169,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/tools/SleepTools.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="59">
+=======
+            <state relative-caret-position="25">
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
@@ -183,6 +239,10 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,14 +307,22 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557313199306" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556005244677" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thread" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -310,18 +378,30 @@
       <option name="presentableId" value="Default" />
       <updated>1555921402510</updated>
       <workItem from="1555921404997" duration="11903000" />
+<<<<<<< HEAD
       <workItem from="1557296992886" duration="1129000" />
+=======
+      <workItem from="1555984208938" duration="2762000" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="13032000" />
+=======
+    <option name="totallyTimeSpent" value="14665000" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536946" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,8 +409,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.10954447" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5480607" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.87015176" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +432,11 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.045309167" />
+=======
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.06978653" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -370,17 +459,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/Delayed.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/ITaskProcesser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/JobInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
+        <state relative-caret-position="1575">
           <caret line="76" column="48" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -390,8 +478,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/core/PendingJobPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2575">
+          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/core/CheckJobProcesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+          <folding>
+            <element signature="e#205#221#0" expanded="true" />
+          </folding>
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/core/ItemVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1701">
+          <caret line="76" column="48" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="925">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/Delayed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/TaskResult.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="675">
           <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
@@ -404,11 +538,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="193">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/tools/SleepTools.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/ITaskProcesser.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="59">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
@@ -437,14 +576,39 @@
           <caret line="4" column="23" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="30" />
           <folding>
             <element signature="e#205#221#0" expanded="true" />
+=======
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/tools/SleepTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/test/MyTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yhh/practice/concurrentFrame/vo/core/PendingJobPool.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="320">
           <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="46" />
+=======
+        <state>
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="27" />
+>>>>>>> 8d710c4713996f518e6847ace038dae4c94ed7cd
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

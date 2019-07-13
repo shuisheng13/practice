@@ -2,6 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/config" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/letter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mall" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ruoyi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springcloud/parent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vip-concurrent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webmagic" vcs="Git" />
   </component>
 </project>

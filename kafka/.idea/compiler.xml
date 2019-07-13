@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka-no-spring" />
+        <module name="kafka-stream" />
+        <module name="kafka-traffic-shaping" />
+        <module name="kafka-traffic-shaping-client" />
+        <module name="kafka-with-spring" />
+        <module name="kafka-with-springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka" target="1.5" />
+      <module name="kafka-no-spring" target="1.5" />
+      <module name="kafka-stream" target="1.8" />
+      <module name="kafka-traffic-shaping" target="1.8" />
+      <module name="kafka-traffic-shaping-client" target="1.8" />
+      <module name="kafka-with-spring" target="1.5" />
+      <module name="kafka-with-springboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/activemq/am-with-sprimg-c" />
+    <file type="web" url="file://$PROJECT_DIR$/activemq/am-with-spring-p" />
+    <file type="web" url="file://$PROJECT_DIR$/activemq/asyncApp" />
+    <file type="web" url="file://$PROJECT_DIR$/activemq/delayOrder" />
+    <file type="web" url="file://$PROJECT_DIR$/kafka/kafka-with-spring" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitmq/rq-depot" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitmq/rq-order" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitmq/rq-spring-with" />
+    <file type="web" url="file://$PROJECT_DIR$/rabbitmq/rq-spring-with-consumer" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/activemq/am-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/rq-springboot-with/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/activemq/am-with-spring-p/am-with-spring-c/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

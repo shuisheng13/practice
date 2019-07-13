@@ -70,6 +70,11 @@ public class HashMapTable {
     public static void main(String[] args) {
         Hashtable<String,Object> hashtable = new Hashtable<String, Object>();
         new Thread(new putThead1(hashtable)).start();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         new Thread(new getThead1(hashtable)).start();
         new Thread(new getThead2(hashtable)).start();
 
