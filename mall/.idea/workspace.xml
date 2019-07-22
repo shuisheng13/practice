@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd9cf06f-bf37-475c-96e7-ed426e084c9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../concurrentFrame/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../container/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../container/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../concurrentFrame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../concurrentFrame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../container/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../container/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruoyi" beforeDir="false" afterPath="$PROJECT_DIR$/../ruoyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/springboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/Handler/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/Handler/WebLogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/SpringbootApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/SpringbootApplication3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/config/DBConfig1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/config/DBConfig2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/config/DataSource1Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/config/DataSource2Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/controller/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/controller/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/controller/ExcelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/controller/SwaggerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/controller/ThymeleafController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/dao/orders/OrdersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/dao/users/UsersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/model/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/model/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/service/IOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/com/yhh/practice/springboot/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/mapping/orders/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/mapping/users/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/static/timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/testThymeleaf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/classes/templates/testThymeleaf2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/test-classes/com/yhh/practice/springboot/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/target/test-classes/com/yhh/practice/springboot/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/scloud-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-api/target/microcloud.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/scloud-api/target/microcloud.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-eureka-client/target/classes/com/yhh/springcloud/scloudeureka/config/EurekaSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-product-hystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/scloud-product-hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/scloud-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-product2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/scloud-product2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-product3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/scloud-product3/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-security/target/classes/com/yhh/springcloud/scloudsecurity/config/WebSecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-security/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-security/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-security/target/microcloud.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/classes/com/yhh/springcloud/scloudservice/config/FeignClientConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/classes/com/yhh/springcloud/scloudservice/service/IProductClientService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/classes/com/yhh/springcloud/scloudservice/service/IZUUlClientService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/classes/com/yhh/springcloud/scloudservice/service/fallback/IProductClientServiceFallbackFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/classes/com/yhh/springcloud/scloudservice/service/fallback/IProductClientServiceFallbackFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/classes/com/yhh/springcloud/scloudservice/service/fallback/IZUUlClientServiceallbackFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/classes/com/yhh/springcloud/scloudservice/service/fallback/IZUUlClientServiceallbackFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-service/target/microcloud.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/scloud-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/parent/scloud-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/parent/scloud-zuul/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/RedisSessionConfig.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/ShiroConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/Swagger2.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/WebMvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/AccountApp.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/sys/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/sys/controller/SystemController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/sys/advice/JsonpAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project-parent/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="165" column="24" selection-start-line="158" selection-start-column="8" selection-end-line="165" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/DubboConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="343" />
+    <option name="y" value="176" />
+    <option name="width" value="1585" />
+    <option name="height" value="1021" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+              <item name="mall-mongo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mall" type="462c0819:PsiDirectoryNode" />
+              <item name="project-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project-parent" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd9cf06f-bf37-475c-96e7-ed426e084c9a" name="Default Changelist" comment="" />
+      <created>1558749669905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558749669905</updated>
+      <workItem from="1558749671180" duration="523000" />
+      <workItem from="1558750214629" duration="718000" />
+      <workItem from="1559281990437" duration="32000" />
+      <workItem from="1561110796683" duration="55000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1328000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.26385927" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mall-mongo/src/main/java/cn/enjoy/mall/mongo/BaseMgDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-mongo/src/main/java/cn/enjoy/mall/mongo/GoodsCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-mongo/src/main/java/cn/enjoy/mall/mongo/HotCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-mongo/src/main/java/cn/enjoy/mall/mongo/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="47" column="5" selection-start-line="45" selection-start-column="44" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-model/src/main/java/cn/enjoy/mall/model/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-model/src/main/java/cn/enjoy/mall/vo/CategoryTree.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-model/src/main/java/cn/enjoy/mall/SysPropUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-model/src/main/java/cn/enjoy/sys/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/core/constant/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4185">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/core/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/core/utils/SpringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" selection-start-line="22" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/core/utils/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="133" column="24" selection-start-line="133" selection-start-column="7" selection-end-line="133" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/core/utils/UUIDGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/core/utils/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12632">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/core/utils/CommonConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="83" column="55" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/core/utils/ByteUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/mall/constant/CollectionConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/mall/constant/KillConstants.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/mall/constant/PayType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/mall/constant/PayStatus.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/mall/constant/OrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/mall/constant/MallConstant.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/sys/security/OpenApiToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" column="5" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-core/src/main/java/cn/enjoy/util/ShiroCacheUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/CacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/ErrorControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/RedisSessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/ShiroConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/AccountApp.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/sys/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/sys/controller/SystemController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/sys/advice/JsonpAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-account/src/main/java/cn/enjoy/config/DubboConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="165" column="24" selection-start-line="158" selection-start-column="8" selection-end-line="165" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

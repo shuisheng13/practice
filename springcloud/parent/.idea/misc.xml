@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/scloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/scloud-config/pom.xml" />
         <option value="$PROJECT_DIR$/scloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/scloud-gateway/pom.xml" />
       </list>
     </option>
   </component>

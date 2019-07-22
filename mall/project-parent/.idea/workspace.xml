@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d592c4c-fb45-45c4-8115-df6d8dff344a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demo2/ClientHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demo2/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demo2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demo2/ServerHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demol3/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demol3/FiexClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demol3/FiexClientHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demol3/FiexServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demol3/FiexServerHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/StickExcrete/demol3/FixedLengthFrameDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/demo2/ClientHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/demo2/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/demo2/ServerHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/http/BusiHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/http/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/http/HttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../netty/Netty/src/main/java/com/yhh/practice/netty/http/RespConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot_test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/AccountApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/config/CacheConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/config/CompanyConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/config/DubboConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/config/ErrorControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/config/RedisSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/config/ShiroConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/config/Swagger2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/advice/JsonpAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/controller/AccessTokenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/controller/AuthorizeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/controller/CommonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/controller/PersonalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/controller/SystemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/fs/FastDFSClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/security/MySessionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/security/RetryLimitHashedCredentialsMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/security/SessionInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/security/ShiroAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/java/cn/enjoy/sys/security/ShiroRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/application-beta.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/assets/css/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/assets/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/assets/css/modal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/assets/css/pwd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/assets/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/assets/imgs/ghs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/assets/imgs/icon/input-err.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/assets/imgs/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/assets/imgs/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/components/CAvatarCropper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/components/CMessage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/lib/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/lib/lodash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/lib/qs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/lib/require.css.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/lib/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/lib/vue-router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/lib/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/lib/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/lib/vuex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/services/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/services/serviceFactory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/services/src/accountService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/store/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/store/modules/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/utils/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/utils/uLodash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/utils/uMessageBox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/view/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/view/home/comps/EditUserAvatarDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/view/home/comps/EditUserDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/view/home/editPassword.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/view/home/userInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/view/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/view/mixins/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-account/src/main/resources/static/scripts/view/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IGoodsCategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IGoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IKillGoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IOrderActionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IPayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IScheduledService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IShoppingCartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IUserAddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/IWxPayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/IAttributeManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/IBrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/ICategoryManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/IDeliveryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/IGoodsManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/IGoodsSpecManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/IGoodsTypeManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/IKillSpecManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/IOrderManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/mall/service/manage/IShippingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/IAuthorizeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/IDepartmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/IDictDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/IDictTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/ILoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/IResourceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/IRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/ISysParamService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/IUserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-api/src/main/java/cn/enjoy/sys/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/constant/SysRoleEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/ByteUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/CommonConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/ExceptionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/GridModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/JsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/RandomUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/SpringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/UUIDGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/response/HttpResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/response/ResponseCodeConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/CollectionConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/KillConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/MallConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/PayStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/PayType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/RedisCacheNames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/RedisKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/ShippingStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/SsoConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/mall/constant/SysParamCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/sys/security/OpenApiToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/util/ShiroCacheUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/SysPropUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/DeliveryDoc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/GoodsAttr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/GoodsAttribute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/GoodsCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/GoodsImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/GoodsType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/HotSellingGoods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/KillGoodsPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/OrderAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/OrderGoods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/Shipping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/Spec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/SpecGoodsImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/SpecGoodsPrice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/SpecItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/UserAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/CategoryCountVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/CategoryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsAttributeVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsBasePageVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsBaseVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsImageVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsPageVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsSpecAttrVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsSpecPriceAttrVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsSpecPriceDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/GoodsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/HotGoodsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/KillGoodsSpecPriceDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/KillOrderVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/OrderActionVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/OrderCreateVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/OrderVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/ShoppingGoodsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/ShopppingGoodsAddVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/SpecVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/vo/UserShoppingGoodsVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/DepartmentTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/KeyIdentity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/MenuModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/Oauth2Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/ResourceTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SelectModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysDictData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysDictType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysOrganization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysRoleResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysUserBind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysUserOrganization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/TreeViewResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/sys/model/UserDepartmentInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-mongo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/BaseMgDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/CategoryCountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/GoodsCategoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/GoodsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/HotCategoryDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/ShoppingCartDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/mall-order-service.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/OrderServiceApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/config/DubboConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/config/MongodbConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/config/RabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/config/TransactionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/lock/Lock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/lock/LockConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/lock/ZookeeperDistrbuteLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/DeliveryDocMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/OrderActionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/OrderGoodsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/OrderManageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/ScheduledMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/ShippingMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/UserAddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/OrderActionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/PayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/ScheduledServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/SequenceGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/ShoppingCartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/UserAddressServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/manage/DeleveryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/manage/OrderManageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/manage/ShippingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/mq/SecKillReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/users/annotation/Master.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/users/aop/DataSourceAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/users/dbutils/DBContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/users/dbutils/DBTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/users/dbutils/MyRoutingDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/application-beta.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/mapping/mall/DeliveryDocMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/mapping/mall/OrderActionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/mapping/mall/OrderGoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/mapping/mall/OrderManageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/mapping/mall/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/mapping/mall/ScheduledMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/mapping/mall/ShippingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/main/resources/mapping/mall/UserAddressMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-order-service/src/test/java/cn/enjoy/ServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/PayServiceApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/config/DubboConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/NotifyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/WxPayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/WxPayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/IWXPayDomain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/WXPay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/WXPayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/WXPayConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/WXPayDomainSimpleImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/WXPayReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/WXPayRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/WXPayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/WXPayXmlUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/mall/wxsdk/WxPayConfigImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/resources/application-beta.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/test/java/cn/enjoy/ServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/test/resources/application-beta.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-pay/src/test/resources/application-wx.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/ProductApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/Swagger2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/config/DubboConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/config/MongodbConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/config/TransactionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/annotation/Master.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/aop/DataSourceAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/BrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/DeliveryDocMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/GoodsAttrMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/GoodsAttributeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/GoodsCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/GoodsImagesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/GoodsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/GoodsTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/KillGoodsPriceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/SpecGoodsImageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/SpecGoodsPriceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/SpecItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/SpecMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dao/SysParamMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dbutils/DBContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dbutils/DBTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/dbutils/MyRoutingDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/GoodsCategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/GoodsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/SysParamServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/manage/AttributeManageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/manage/BrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/manage/CategoryManageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/manage/GoodsSpecManageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/manage/GoodsTypeManageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/manage/KillGoodsManageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/application-beta.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/BrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/DeliveryDocMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/GoodsAttrMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/GoodsAttributeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/GoodsCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/GoodsImagesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/GoodsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/GoodsTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/KillGoodsPriceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/SpecGoodsImageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/SpecGoodsPriceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/SpecItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/SpecMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/SysParamMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-product-service/src/main/resources/myGeneratorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/UserServiceApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/annotation/Master.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/aop/DataSourceAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/config/DubboConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/config/TransactionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/DepartmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/KeyIdentityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/Oauth2ClientMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysDictDataMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysDictTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysEmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysOrganizationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysResourceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysRoleResourceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysUserBindMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysUserOrganizationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/UserDepartmentInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dbutils/DBContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dbutils/DBTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dbutils/MyRoutingDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/service/impl/AuthorizeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/service/impl/DepartmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/service/impl/DictDataServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/service/impl/DictTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/service/impl/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/service/impl/ResourceServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/service/impl/UserRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/application-beta.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/DepartmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/KeyIdentityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/Oauth2ClientMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysDictDataMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysDictTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysEmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysOrganizationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysResourceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysRoleResourceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysUserBindMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysUserOrganizationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/UserDepartmentInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-user-service/src/main/resources/mapping/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/MgrApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/config/ShiroConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/DepartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/GoodsAttributeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/GoodsCategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/GoodsContoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/GoodsSpecController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/GoodsTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/KillSpecController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/quartz/BrandAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/application-beta.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/css/app.358a6567ffa45fb7277c22ee96fd713d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/fonts/iconfont.60b663b.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/fonts/iconfont.a64f9d1.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/fonts/iconfont.d2db047.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/fonts/iconfont.e987faa.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/img/login-bg.0c1e4c4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/img/login-bg.36936c4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/0.bad13e9c6db102bb50f3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/1.b2ffae7d22f5bc043ee7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/10.32b03d9a0b0c36796a3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/11.3856cce4e0fe8d31e935.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/12.2b8f170dd8f111115a5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/13.ea7b0eb4aa8369e3394c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/14.c775af7445aa596502ec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/15.32601df3aa437df66cc0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/17.5f10b440ece0888edb6c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/18.b158d2ef849225313778.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/2.411f208813602b041085.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/3.193506f7c77728202c52.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/4.d3cd4f79d549140a28d7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/5.ae28255dccc4433feb3f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/6.8fbc0b1436313a221323.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/7.2dfacb6583cdce78e41f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/8.5a9f94f9ccada9c731aa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/9.a6d106f5963704cd21ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/app.4ef5187a1b4fc053dcc6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-mng/src/main/resources/static/static/js/manifest.48c3a9c7e2f1d06e8c09.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/FrontApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/config/RabbitConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/advice/JsonpAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/controller/GoodsContoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/controller/KillGoodsContoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/controller/PayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/controller/SearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/controller/ShoppingCartContoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/controller/UserAddressController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/service/KillGoodsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/service/SecKillSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/application-beta.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/css/app.bb0f2cdfe5347a35db8c3cf7aa626319.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/fonts/iconfont.0aa58d5.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/bigtap-mitu-faild.9597979.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/bigtap-mitu-queue-big.b403fa0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/cart-empty.8b31643.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/event-alipay20160718.3c0a7c5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/gift816-1.bcd84c9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/gift816-2.8053f82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/gift816-3.53f1810.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/loginbanner.0173026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/mitu-2.37d936a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/photo.6fb69b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/prizeBg.49f1fca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/img/weinxin-pay.939fbb3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/0.0e90066ba37bc2109d53.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/1.1f080537e20375b71213.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/10.35eca624436c2fdf1f8d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/11.46af1ca7d2aed18ca3d0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/12.3763cdaee72a75b37bd6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/13.b89af23766a1529e1f82.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/14.dbd2a1063bbd32cecda9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/15.c294ee7d2f7b3d1d30fe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/16.bfe92978c040e22b0da5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/17.a89b5b9651a47f7b4bb6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/18.8d29318ec37079d5813f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/19.9e7adaba704b191a212e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/2.ede999f6e437f3f5df5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/20.ca91e8d9b181e32ec856.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/21.0cc0796ef18f6e013b74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/22.5c8cc52654fc45bab812.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/3.2cfb0f113be002e4b323.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/4.d6aa9cc7a9641c8ca247.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/5.41c7809375ce0d684ceb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/6.0d4232ba8e6538de8df7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/7.e48f1c5000d4b51870f3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/8.7b71643c2d6702b2c8e3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/9.4a36c601c7e8e65498f0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/app.326dd21459d955c1efa9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web-order/src/main/resources/static/static/js/manifest.aa7b10368f9a28309cc3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/config/CompanyConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/config/DateConverterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/config/DubboConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/config/ErrorControllerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/config/RedisSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/config/ShiroOauth2Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/config/Swagger2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/CommonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/DictController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/DictTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/PersonalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/ResourceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/SystemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/fs/FastDFSClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/security/MySessionContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/security/MySessionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/security/OAuth2AuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/security/OAuth2Realm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/security/OAuth2Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/security/SessionInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/security/ShiroAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/security/ShiroRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/java/cn/enjoy/sys/util/DictCacheUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/main/resources/ehcache-shiro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mall-web/src/test/java/test/com/pzh/service/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mall-user/error/2019-05-25/error-log.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mall-user/web.2019-05-25.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ruoyi" beforeDir="false" afterPath="$PROJECT_DIR$/../../ruoyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_atomikos_atomikos_util_4_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_atomikos_transactions_4_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_atomikos_transactions_api_4_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_atomikos_transactions_jdbc_4_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_atomikos_transactions_jms_4_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_atomikos_transactions_jta_4_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_mybatis_mybatis_3_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jta_atomikos_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_test_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot_test/springboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/src/main/java/com/yhh/practice/springboot/controller/ThymeleafController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot_test/src/main/java/com/yhh/practice/springboot/controller/ThymeleafController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/Handler/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/Handler/WebLogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/SpringbootApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/SpringbootApplication2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/SpringbootApplication3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/config/DBConfig1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/config/DBConfig2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/config/DataSource1Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/config/DataSource2Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/controller/BaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/controller/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/controller/SwaggerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/controller/ThymeleafController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/dao/orders/OrdersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/dao/users/UsersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/model/Orders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/model/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/service/IOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/service/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/service/impl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/com/yhh/practice/springboot/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/mapping/orders/OrdersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/mapping/users/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/static/timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/classes/templates/testThymeleaf.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/test-classes/META-INF/springboot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/test-classes/com/yhh/practice/springboot/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot_test/target/test-classes/com/yhh/practice/springboot/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springcloud/parent/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springcloud/parent/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springcloud/parent/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springcloud/parent/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springcloud/parent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springcloud/parent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springcloud/parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springcloud/parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springcloud/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springcloud/parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springcloud/parent/scloud-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springcloud/parent/scloud-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thread/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/../mall-core/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-order-service/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-mongo/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-account/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-model/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-product-service/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-pay/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-web-order/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-web-mng/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-user-service/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-web/target/" />
+    <ignored path="$PROJECT_DIR$/../mall-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>20882</find>
+      <find>172.19.160.228</find>
+      <find>tcc</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../mall-user-service/src/main/resources/application-beta.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561112314980" />
+    <property name="last_opened_file_path" value="E:/autoai/parent" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StringUtil">
+    <configuration name="DateUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoy.core.utils.DateUtil" />
+      <module name="mall-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.core.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoy.core.utils.MD5Util" />
+      <module name="mall-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.core.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoy.core.utils.RandomUtils" />
+      <module name="mall-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.core.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoy.core.utils.StringUtil" />
+      <module name="mall-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.core.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UUIDGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.enjoy.core.utils.UUIDGenerator" />
+      <module name="mall-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.core.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-account" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.AccountApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-web-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.FrontApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MgrApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-web-mng" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.MgrApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.OrderServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-pay" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.PayServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.ProductApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.users.UserServiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringUtil" />
+        <item itemvalue="Application.UUIDGenerator" />
+        <item itemvalue="Application.RandomUtils" />
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="Application.DateUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d592c4c-fb45-45c4-8115-df6d8dff344a" name="Default Changelist" comment="" />
+      <created>1558750066007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558750066007</updated>
+      <workItem from="1558750067235" duration="3843000" />
+      <workItem from="1559282035149" duration="961000" />
+      <workItem from="1561110848336" duration="1477000" />
+      <workItem from="1561363776147" duration="1281000" />
+      <workItem from="1562119623146" duration="29000" />
+      <workItem from="1563172183854" duration="53000" />
+      <workItem from="1563430129172" duration="3484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11128000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2462039" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4262473" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.22121535" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../mall-user-service/src/main/java/cn/enjoy/users/dao/SysDictDataMapper.java</url>
+          <line>121</line>
+          <properties class="cn.enjoy.users.dao.SysDictDataMapper" method="queryAllDictDataPage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://E:/repository/com/alibaba/dubbo/2.6.0/dubbo-2.6.0.jar!/com/alibaba/dubbo/config/spring/context/annotation/EnableDubbo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mall-pay/src/main/java/cn/enjoy/PayServiceApp.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-pay/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/DeliveryDocMapper.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/lock/LockConfig.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/lock/Lock.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/lock/ZookeeperDistrbuteLock.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/CategoryCountDao.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/GoodsCategoryDao.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/GoodsDao.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/HotCategoryDao.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/ShoppingCartDao.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/exception/BusinessException.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/HttpUtil.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/DateUtil.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/ExceptionUtil.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/MD5Util.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/RandomUtils.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/SpringUtil.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/CommonConstant.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/response/HttpResponseBody.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/response/ResponseCodeConstant.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/util/ShiroCacheUtil.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/constant/SysRoleEnum.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/UUIDGenerator.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/StringUtil.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/ByteUtils.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/DepartmentController.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/GoodsAttributeController.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/GoodsCategoryController.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/GoodsMapper.xml" />
+    <entry file="jar://E:/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.10/jackson-annotations-2.8.10.jar!/com/fasterxml/jackson/annotation/JsonInclude.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mall-model/src/main/java/cn/enjoy/mall/model/GoodsCategory.java" />
+    <entry file="jar://E:/repository/org/springframework/data/spring-data-mongodb/1.10.9.RELEASE/spring-data-mongodb-1.10.9.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="450" column="23" selection-start-line="450" selection-start-column="23" selection-end-line="450" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mall-product-service/src/main/resources/mapping/mall/BrandMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/SearchController.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/GoodsCategoryServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-web-mng/src/main/java/cn/enjoy/mall/web/controller/GoodsContoller.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/config/RabbitConfig.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/controller/GoodsContoller.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-product-service/src/main/java/cn/enjoy/mall/service/impl/GoodsServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/logs/mall-user/web.2019-05-25.0.log" />
+    <entry file="file://$PROJECT_DIR$/../mall-mongo/src/main/java/cn/enjoy/mall/mongo/BaseMgDao.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/service/KillGoodsService.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/users/aop/DataSourceAop.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/OrderActionMapper.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/UserAddressMapper.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/dao/ShippingMapper.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-order-service/src/main/java/cn/enjoy/mall/service/impl/manage/OrderManageServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-core/src/main/java/cn/enjoy/core/utils/GridModel.java" />
+    <entry file="file://$PROJECT_DIR$/../mall-web-order/src/main/java/cn/enjoy/mall/web/advice/JsonpAdvice.java" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

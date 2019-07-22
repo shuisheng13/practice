@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jseckill" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/letter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mall" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ruoyi" vcs="Git" />

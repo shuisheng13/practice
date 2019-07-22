@@ -21,6 +21,7 @@
         <module name="scloud-eureka-client" />
         <module name="scloud-eureka2" />
         <module name="scloud-eureka3" />
+        <module name="scloud-gateway" />
         <module name="scloud-ha-config-eureka" />
         <module name="scloud-ha-config-eureka2" />
         <module name="scloud-ha-config-eureka3" />
@@ -35,6 +36,9 @@
         <module name="scloudapi" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="scloud-product-apollo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -44,6 +48,7 @@
       <module name="scloud-consumer-hystrix-dashboard" options="" />
       <module name="scloud-consumer-turbine" options="" />
       <module name="scloud-eureka" options="" />
+      <module name="scloud-gateway" options="-parameters" />
       <module name="scloud-product" options="" />
       <module name="scloud-user-hystrix" options="" />
       <module name="scloud-zuul" options="" />

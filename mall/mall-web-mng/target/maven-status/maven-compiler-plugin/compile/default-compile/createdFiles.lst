@@ -1,0 +1,12 @@
+cn\enjoy\MgrApp.class
+cn\enjoy\mall\web\controller\quartz\BrandAction.class
+cn\enjoy\mall\web\controller\KillSpecController.class
+cn\enjoy\config\ShiroConfiguration.class
+cn\enjoy\mall\web\controller\OrderController.class
+cn\enjoy\mall\web\controller\SearchController.class
+cn\enjoy\mall\web\controller\GoodsTypeController.class
+cn\enjoy\mall\web\controller\GoodsSpecController.class
+cn\enjoy\mall\web\controller\GoodsContoller.class
+cn\enjoy\mall\web\controller\GoodsAttributeController.class
+cn\enjoy\mall\web\controller\DepartmentController.class
+cn\enjoy\mall\web\controller\GoodsCategoryController.class

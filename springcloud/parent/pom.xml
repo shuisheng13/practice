@@ -35,6 +35,7 @@
         <module>scloud-config2</module>
         <module>scloud-config3</module>
         <module>scloud-config-client</module>
+        <module>scloud-gateway</module>
     </modules>
 
     <properties>

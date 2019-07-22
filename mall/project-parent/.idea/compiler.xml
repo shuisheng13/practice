@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-account" />
+        <module name="mall-api" />
+        <module name="mall-core" />
+        <module name="mall-model" />
+        <module name="mall-mongo" />
+        <module name="mall-order-service" />
+        <module name="mall-pay" />
+        <module name="mall-product-service" />
+        <module name="mall-user-service" />
+        <module name="mall-web" />
+        <module name="mall-web-mng" />
+        <module name="mall-web-order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall-account" target="1.8" />
+      <module name="mall-api" target="1.8" />
+      <module name="mall-core" target="1.8" />
+      <module name="mall-model" target="1.8" />
+      <module name="mall-mongo" target="1.8" />
+      <module name="mall-order-service" target="1.8" />
+      <module name="mall-pay" target="1.8" />
+      <module name="mall-product-service" target="1.8" />
+      <module name="mall-user-service" target="1.8" />
+      <module name="mall-web" target="1.8" />
+      <module name="mall-web-mng" target="1.8" />
+      <module name="mall-web-order" target="1.8" />
+      <module name="project-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
