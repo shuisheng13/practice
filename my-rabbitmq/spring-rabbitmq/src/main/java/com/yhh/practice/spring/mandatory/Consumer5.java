@@ -6,7 +6,7 @@ import com.yhh.practice.spring.common.Constant;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Consumer2 {
+public class Consumer5 {
 
     private static AtomicInteger atomicInteger = new AtomicInteger(0);
     public static void main(String[] args) {
@@ -25,9 +25,11 @@ public class Consumer2 {
             //String queueName = channel.queueDeclare().getQueue();
             String queueName = Constant.QUEUE_DIRECT;
             //所有日志严重性级别  路由
-            String severity="info";
-            //信道绑定队列绑定交换器绑定路由
-            channel.queueBind(queueName,Constant.MANDATORY_TEST_01,severity);
+            String[] severities={"error","info","warning"};
+            for (String severity : severities) {
+                //信道绑定队列绑定交换器绑定路由
+                channel.queueBind(queueName,Constant.MANDATORY_TEST_01,severity);
+            }
             System.out.println("[*] Waiting for messages:");
             final Consumer consunmer1 = new DefaultConsumer(channel) {
                 @Override
@@ -44,5 +46,6 @@ public class Consumer2 {
         }catch (Exception e){
             e.printStackTrace();
         }
+
     }
 }

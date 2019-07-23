@@ -5,11 +5,15 @@ import com.yhh.practice.spring.common.Constant;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /***
  * 失败通知
  */
 public class Produce {
+
+    private static AtomicInteger atomicInteger = new AtomicInteger(0);
+    private static AtomicInteger error = new AtomicInteger(0);
 
     public static void main(String[] args) {
 
@@ -25,12 +29,12 @@ public class Produce {
             //创建信道
             channel = connection.createChannel();
             //绑定fanout类型的交换器
-            channel.exchangeDeclare(Constant.FANOUT_DIRECT_TEST, BuiltinExchangeType.DIRECT);
+            channel.exchangeDeclare(Constant.MANDATORY_TEST_01, BuiltinExchangeType.DIRECT);
             /***
              * 失败通知回调
              */
             //连接失败时通知
-            channel.addShutdownListener(new ShutdownListener() {
+            connection.addShutdownListener(new ShutdownListener() {
                 @Override
                 public void shutdownCompleted(ShutdownSignalException e) {
                     System.out.println("发送端失败通知 ---------> connent连接关闭时通知 ["+e.getMessage()+"]");
@@ -59,21 +63,20 @@ public class Produce {
 
 
             /*日志消息级别，作为路由键使用*/
-            String[] serverities = {"error","info","warning"};
-            for(int i=0;i<3;i++){
-                String severity = serverities[i%3];//每一次发送一条不同严重性的日志
+            String[] serverities = {"error","info","warning","test"};
+            for(int i=0;i<30000;i++){
+                String severity = serverities[i%4];//每一次发送一条不同严重性的日志
 
                 // 发送的消息
                 String message = "Hello World_"+(i+1);
                 //参数1：exchange name
                 //参数2：routing key
-                channel.basicPublish(Constant.FANOUT_DIRECT_TEST, severity,
+                channel.basicPublish(Constant.MANDATORY_TEST_01, severity,true,
                         null, message.getBytes());
-                System.out.println(" [x] Sent '" + severity +"':'"
-                        + message + "'");
+                System.out.println("发送端发送消息  路由["+severity+"] 消息["+message+"] 次数["+atomicInteger.incrementAndGet()+"]");
             }
-//            channel.close();
-//            connection.close();
+            channel.close();
+            connection.close();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (TimeoutException e) {

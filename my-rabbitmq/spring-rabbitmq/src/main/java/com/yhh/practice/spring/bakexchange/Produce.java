@@ -1,19 +1,19 @@
-package com.yhh.practice.spring.productConfirm;
+package com.yhh.practice.spring.bakexchange;
 
 import com.rabbitmq.client.*;
 import com.yhh.practice.spring.common.Constant;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class ProduceBathConfirm {
-
-    private static AtomicInteger sccatomicInteger = new AtomicInteger(0);
-    private static AtomicInteger erratomicInteger = new AtomicInteger(0);
+public class Produce {
+    private static AtomicInteger atomicInteger = new AtomicInteger(0);
     private static AtomicInteger returnInteger = new AtomicInteger(0);
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost(Constant.ADRESS);
         factory.setUsername(Constant.USERNAME);
@@ -25,8 +25,13 @@ public class ProduceBathConfirm {
             connection = factory.newConnection();
             //创建信道
             channel = connection.createChannel();
-            //绑定fanout类型的交换器
-            channel.exchangeDeclare(Constant.DIRECT_ACK_CONFIRM_TEST_01, BuiltinExchangeType.DIRECT);
+
+            //备用交换器
+            Map<String, Object> map = new HashMap<String, Object>();
+            map.put("alternate-exchange",Constant.BAK_EXCHANGE_NAME_02);
+            //绑定主交换器
+            channel.exchangeDeclare(Constant.MAIN_EXCHANGE_NAME, BuiltinExchangeType.DIRECT,false,false,map);
+            channel.exchangeDeclare(Constant.BAK_EXCHANGE_NAME_02,BuiltinExchangeType.FANOUT,true,false,null);
             channel.addReturnListener(new ReturnListener() {
                 public void handleReturn(int replyCode, String replyText,
                                          String exchange, String routingKey,
@@ -42,34 +47,36 @@ public class ProduceBathConfirm {
                             "失败确认次数 count 【"+returnInteger.incrementAndGet()+"】");
                 }
             });
-            channel.confirmSelect();
-
             /*日志消息级别，作为路由键使用*/
-            String[] serverities = {"error", "info", "warning"};
-            for (int i = 0; i < 100; i++) {
-                String severity = serverities[i % 3];//每一次发送一条不同严重性的日志
+            String[] serverities = {"error","info","warning"};
+            for(int i=0;i<300;i++){
+                String severity = serverities[i%3];//每一次发送一条不同严重性的日志
 
                 // 发送的消息
-                String message = "Hello World_" + (i + 1);
+                String message = "Hello World_"+(i+1);
                 //参数1：exchange name
                 //参数2：routing key
-                channel.basicPublish(Constant.DIRECT_ACK_CONFIRM_TEST_01, "error",true,
+                channel.basicPublish(Constant.MAIN_EXCHANGE_NAME, severity,true,
                         null, message.getBytes());
-//                System.out.println(" [x] Sent '" + severity + "':'"
-//                        + message + "'");
+                System.out.println(" 发送消息【路由】 '" + severity +"【消息】"
+                        + message + "【次数】"+atomicInteger.incrementAndGet());
             }
-            //批量确认
-            channel.waitForConfirmsOrDie();
-            channel.close();
-            connection.close();
+
         } catch (IOException e) {
             e.printStackTrace();
         } catch (TimeoutException e) {
             e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        }
+        finally {
+            try {
+                channel.close();
+                connection.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (TimeoutException e) {
+                e.printStackTrace();
+            }
         }
     }
-
 
 }

@@ -14,6 +14,7 @@ public class Produce {
 
     private static AtomicInteger sccatomicInteger = new AtomicInteger(0);
     private static AtomicInteger erratomicInteger = new AtomicInteger(0);
+    private static AtomicInteger returnInteger = new AtomicInteger(0);
     public static void main(String[] args) {
 
         ConnectionFactory factory = new ConnectionFactory();
@@ -28,7 +29,7 @@ public class Produce {
             //创建信道
             channel = connection.createChannel();
             //绑定fanout类型的交换器
-            channel.exchangeDeclare(Constant.DIRECT_CONFIRM_TEST, BuiltinExchangeType.DIRECT);
+            channel.exchangeDeclare(Constant.DIRECT_ACK_CONFIRM_TEST_01, BuiltinExchangeType.DIRECT);
             channel.addReturnListener(new ReturnListener() {
                 public void handleReturn(int replyCode, String replyText,
                                          String exchange, String routingKey,
@@ -36,11 +37,12 @@ public class Produce {
                                          byte[] body)
                         throws IOException {
                     String message = new String(body);
-                    System.out.println("RabbitMq返回的replyCode:  "+replyCode);
-                    System.out.println("RabbitMq返回的replyText:  "+replyText);
-                    System.out.println("RabbitMq返回的exchange:  "+exchange);
-                    System.out.println("RabbitMq返回的routingKey:  "+routingKey);
-                    System.out.println("RabbitMq返回的message:  "+message);
+                    System.out.println("失败确认的replyCode:【  "+replyCode+"】 " +
+                                        "失败确认的replyText:【"+replyText+"】"+
+                                        "失败确认的exchange :【"+exchange+"】"+
+                                        "失败确认的routingKey:  【"+routingKey+"】"+
+                                        "失败确认的message : 【"+message+"】"+
+                                        "失败确认次数 count 【"+returnInteger.incrementAndGet()+"】");
                 }
             });
             channel.confirmSelect();
@@ -49,12 +51,11 @@ public class Produce {
             String[] serverities = {"error", "info", "warning"};
             for (int i = 0; i < 100; i++) {
                 String severity = serverities[i % 3];//每一次发送一条不同严重性的日志
-
                 // 发送的消息
                 String message = "Hello World_" + (i + 1);
                 //参数1：exchange name
                 //参数2：routing key
-                channel.basicPublish(Constant.DIRECT_CONFIRM_TEST, "error",true,
+                channel.basicPublish(Constant.DIRECT_ACK_CONFIRM_TEST_01, "error",true,
                         null, message.getBytes());
 //                System.out.println(" [x] Sent '" + severity + "':'"
 //                        + message + "'");
@@ -63,7 +64,6 @@ public class Produce {
                 }else{
                     System.out.println("send failure atomicInteger "+erratomicInteger.incrementAndGet());
                 }
-
             }
             channel.close();
             connection.close();
@@ -73,15 +73,6 @@ public class Produce {
             e.printStackTrace();
         } catch (InterruptedException e) {
             e.printStackTrace();
-        } finally {
-            try {
-                channel.close();
-                connection.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (TimeoutException e) {
-                e.printStackTrace();
-            }
         }
     }
 

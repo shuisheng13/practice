@@ -14,6 +14,7 @@ public class ProduceSyncConfirm {
 
     private static AtomicInteger sccatomicInteger = new AtomicInteger(0);
     private static AtomicInteger erratomicInteger = new AtomicInteger(0);
+    private static AtomicInteger returnInteger = new AtomicInteger(0);
 
     public static void main(String[] args) {
 
@@ -29,7 +30,7 @@ public class ProduceSyncConfirm {
             //创建信道
             channel = connection.createChannel();
             //绑定fanout类型的交换器
-            channel.exchangeDeclare(Constant.DIRECT_CONFIRM_TEST, BuiltinExchangeType.DIRECT);
+            channel.exchangeDeclare(Constant.DIRECT_ACK_CONFIRM_TEST_01, BuiltinExchangeType.DIRECT);
             //开启确认模式
             channel.confirmSelect();
             /***
@@ -39,13 +40,20 @@ public class ProduceSyncConfirm {
                 @Override
                 public void handleAck(long deliveryTag, boolean multiple) throws IOException {
                     System.out.println("【handleAck】 deliveryTag:" + deliveryTag
-                            + ",multiple:" + multiple);
+                            + ",multiple:" + multiple+"【ack次数】"+sccatomicInteger.incrementAndGet());
+                    //if(100 == deliveryTag){
+                        try {
+                            Thread.sleep(1*1);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    //}
                 }
 
                 @Override
                 public void handleNack(long deliveryTag, boolean multiple) throws IOException {
                     System.out.println("【handleNack】 deliveryTag:" + deliveryTag
-                            + ",multiple:" + multiple);
+                            + ",multiple:" + multiple+"【nack次数】"+erratomicInteger.incrementAndGet());
                 }
             });
 
@@ -56,19 +64,20 @@ public class ProduceSyncConfirm {
                                          byte[] body)
                         throws IOException {
                     String message = new String(body);
-                    System.out.println("RabbitMq返回的replyCode:  " + replyCode);
-                    System.out.println("RabbitMq返回的replyText:  " + replyText);
-                    System.out.println("RabbitMq返回的exchange:  " + exchange);
-                    System.out.println("RabbitMq返回的routingKey:  " + routingKey);
-                    System.out.println("RabbitMq返回的message:  " + message);
+                    System.out.println("失败确认的replyCode:【  "+replyCode+"】 " +
+                            "失败确认的replyText:【"+replyText+"】"+
+                            "失败确认的exchange :【"+exchange+"】"+
+                            "失败确认的routingKey:  【"+routingKey+"】"+
+                            "失败确认的message : 【"+message+"】"+
+                            "失败确认次数 count 【"+returnInteger.incrementAndGet()+"】");
                 }
             });
             String[] severities = {"error", "warning"};
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 1000; i++) {
                 String severity = severities[i % 2];
                 // 发送的消息
                 String message = "Hello World_" + (i + 1) + ("_" + System.currentTimeMillis());
-                channel.basicPublish(Constant.DIRECT_CONFIRM_TEST, severity, true,
+                channel.basicPublish(Constant.DIRECT_ACK_CONFIRM_TEST_01, severity, false,
                         MessageProperties.PERSISTENT_BASIC, message.getBytes());
                 System.out.println("----------------------------------------------------");
                 System.out.println(" Sent Message: [" + severity + "]:'" + message + "'");

@@ -4,10 +4,11 @@ import com.rabbitmq.client.*;
 import com.yhh.practice.spring.common.Constant;
 
 import java.io.IOException;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Consumer1 {
 
-
+    private static AtomicInteger atomicInteger = new AtomicInteger(0);
     public static void main(String[] args) {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost(Constant.ADRESS);
@@ -19,13 +20,14 @@ public class Consumer1 {
             connection = factory.newConnection();
             channel = connection.createChannel();
             //信道绑定到交换器
-            channel.exchangeDeclare(Constant.FANOUT_DIRECT_TEST, BuiltinExchangeType.DIRECT);
+            channel.exchangeDeclare(Constant.MANDATORY_TEST_01, BuiltinExchangeType.DIRECT);
             //获取随机队列
-            String queueName = channel.queueDeclare().getQueue();
+            //String queueName = channel.queueDeclare().getQueue();
+            String queueName = Constant.QUEUE_DIRECT;
             //所有日志严重性级别  路由
             String severity="info";
             //信道绑定队列绑定交换器绑定路由
-            channel.queueBind(queueName,Constant.FANOUT_DIRECT_TEST,severity);
+            channel.queueBind(queueName,Constant.MANDATORY_TEST_01,severity);
             System.out.println("[*] Waiting for messages:");
             final Consumer consunmer1 = new DefaultConsumer(channel) {
                 @Override
@@ -34,7 +36,7 @@ public class Consumer1 {
                         throws IOException {
                     String message = new String(body);
                     System.out.println("消费者收到消息 message "+"["+message+"]+  路由 "+"["+envelope.getRoutingKey()+"]"
-                            +" 交换器 ["+envelope.getExchange()+"]");
+                            +" 交换器 ["+envelope.getExchange()+"] 次数 [ "+atomicInteger.incrementAndGet()+" ]");
                 }
             };
             //信道绑定队列和消费者
