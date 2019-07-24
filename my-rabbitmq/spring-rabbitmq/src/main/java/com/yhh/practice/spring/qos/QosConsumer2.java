@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /***
  * Qos 单条确认
  */
-public class QosConsumer {
+public class QosConsumer2 {
     private static AtomicInteger atomicInteger = new AtomicInteger(0);
     public static void main(String[] args) {
 
@@ -35,14 +35,9 @@ public class QosConsumer {
             };
             //信道绑定队列和消费者
             //该消费者一次性拉取150条消息
-            channel.basicQos(10000,false);
+            channel.basicQos(10,true);
             channel.basicConsume(queue,false,consunmer1);
-            QosBatchConsumer q1 = new QosBatchConsumer(channel);
-            QosBatchConsumer q2 = new QosBatchConsumer(channel);
-            QosBatchConsumer q3 = new QosBatchConsumer(channel);
-            channel.basicConsume(queue,false,q1);
-            channel.basicConsume(queue,false,q2);
-            channel.basicConsume(queue,false,q3);
+
         }catch (Exception e){
             e.printStackTrace();
         }finally {

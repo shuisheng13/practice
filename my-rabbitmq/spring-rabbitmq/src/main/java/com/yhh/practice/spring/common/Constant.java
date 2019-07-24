@@ -25,13 +25,16 @@ public class Constant {
     public final static String GET_FACTION_EXCHANGE_NAME_01 = "get_faction_exchange_name_02";
     public final static String GET_FACTION_EXCHANGE_NAME_03= "get_faction_exchange_name_03";
     public final static String GET_DIRECT_BATCH_EXCHANGE_NAME_01 = "get_direct_batch_exchange_name_01";
+    public final static String DLX_FAOUNT_EXCHANGE = "dlx_faount_exchange";
 
     public final static int COUNT = 50;
 
     public final static String QUEUE_DIRECT = "queue_direct";
     public final static String QUEUE_MAIN = "queue_main";
     public final static String  QUEUE_GET = "queue_get";
-
+    public final static String  QUEUE_QOS = "queue_qos";
+    public final static String  QUEUE_QOS2 = "queue_qos2";
+    public final static String  QUEUE_REJECT = "queue_reject";
     public static Channel getChanner(){
 
         ConnectionFactory factory = new ConnectionFactory();

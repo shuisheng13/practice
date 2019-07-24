@@ -29,15 +29,18 @@ public class QosBatchConsumer  extends DefaultConsumer {
     @Override
     public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
         atomicInteger.incrementAndGet();
-        String message = new String(body);
-        System.out.println("消费者收到消息 message "+"["+message+"]+  路由 "+"["+envelope.getRoutingKey()+"]"
-                +" 交换器 ["+envelope.getExchange()+"]"+" 消费次数 ["+atomicInteger.incrementAndGet()+"]");
+        String message = new String(body,"UTF-8");
+//        System.out.println("消费者收到消息 message "+"["+message+"]+  路由 "+"["+envelope.getRoutingKey()+"]"
+//                +" 交换器 ["+envelope.getExchange()+"]"+" 消费次数 ["+atomicInteger.incrementAndGet()+"]");
         //批量确认,每50条确认一次
-            if(atomicInteger.get()==envelope.getDeliveryTag()){
-                this.getChannel().basicAck(envelope.getDeliveryTag(),false);
+            if(atomicInteger.get() % 500==0){
+                this.getChannel().basicAck(envelope.getDeliveryTag(),true);
                 System.out.println("批量消息确认["+envelope.getDeliveryTag()+"]");
             }
-        //channel.basicAck(envelope.getDeliveryTag(),false);
+            if("stop".equals(message)){
+                this.getChannel().basicAck(envelope.getDeliveryTag(),true);
+                System.out.println("批量消费者进行最后部分业务消息的确认-------------");
+            }
     }
 
 

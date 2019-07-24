@@ -1,4 +1,4 @@
-package com.yhh.practice.spring.qos;
+package reject;
 
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;
@@ -28,19 +28,16 @@ public class Produce {
             channel = connection.createChannel();
             //绑定fanout类型的交换器
             channel.exchangeDeclare(Constant.GET_DIRECT_BATCH_EXCHANGE_NAME_01, BuiltinExchangeType.DIRECT);
-            String queueName = Constant.QUEUE_QOS2;
+            String queueName = Constant.QUEUE_REJECT;
             /*日志消息级别，作为路由键使用*/
-            String serveritie = "info";
+            String serveritie = "error";
             channel.queueBind(queueName,Constant.GET_EXCHANGE_NAME_01,serveritie);
-            for(int i=0;i<3000;i++){
+            for(int i=0;i<100;i++){
 
                 // 发送的消息
                 String message = "Hello World_"+(i+1);
                 //参数1：exchange name
                 //参数2：routing key
-                if(2999==i){
-                  message = "stop";
-                }
                 channel.basicPublish(Constant.GET_DIRECT_BATCH_EXCHANGE_NAME_01, serveritie,
                         null, message.getBytes());
                 System.out.println("发送者发送消息 message "+"["+message+"]+  路由 "+"["+serveritie+"]"
